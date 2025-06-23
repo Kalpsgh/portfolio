@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Kalpesh" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="kalps">Kalpesh Patil</h1>
+
+          <p class="title">Aspiring Full Stack Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kalpeshpatil65555@gmail.com" class="contact-link">kalpeshpatil65555@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919922738199" class="contact-link">+91 9922738199</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">25 Feb, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pune, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+<ul class="social-list">
+
+  <li class="social-item">
+    <a href="https://www.linkedin.com/in/kalpesh-patil-00b684245/" class="social-link" target="_blank">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://github.com/Kalpsgh" class="social-link" target="_blank">
+      <ion-icon name="logo-github"></ion-icon>
+    </a>
+  </li>
+
+  <li class="social-item">
+    <a href="https://x.com/Kalpesh101677" class="social-link" target="_blank">
+      <ion-icon name="logo-twitter"></ion-icon>
+    </a>
+  </li>
+
+</ul>
+
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>portfolio</button>
+          </li>
+
+         
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a passionate and efficient learner committed to achieving excellence in my career. With proven expertise in software development and a focus on value-driven contributions, I aspire to leverage my childhood dream of becoming a skilled developer to make a meaningful impact on society.
+          </p>
+
+          <p>
+            My journey started with curiosity, and quickly turned into a purpose: to create digital tools that are efficient, reliable, and user-friendly. I’ve worked on desktop-based systems, mobile-responsive websites, and even AI-powered projects like a travel planner and weather dashboard. 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+  <h3 class="h3 service-title">What I'm Doing</h3>
+
+  <ul class="service-list">
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-app.svg" alt="Java development icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Java Development</h4>
+        <p class="service-item-text">
+          Building robust desktop and backend applications using Java, JDBC, and Swing with a focus on performance and scalability.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Web Development</h4>
+        <p class="service-item-text">
+          Developing responsive and user-friendly websites using HTML, CSS, and modern tools like GitHub and VS Code.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-photo.svg" alt="Photography icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Photography</h4>
+        <p class="service-item-text">
+          Passionate about capturing meaningful moments with creative framing and editing techniques.
+        </p>
+      </div>
+    </li>
+
+    <li class="service-item">
+      <div class="service-icon-box">
+        <img src="./assets/images/icon-design.svg" alt="Web design icon" width="40">
+      </div>
+      <div class="service-content-box">
+        <h4 class="h4 service-item-title">Web Design</h4>
+        <p class="service-item-text">
+          Crafting visually appealing layouts and interfaces with attention to user experience and design trends.
+        </p>
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+  <h3 class="h3 testimonials-title">Testimonials</h3>
+
+  <ul class="testimonials-list has-scrollbar">
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Sagar Patil" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Sagar Patil</h4>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Kalpesh developed a robust Java-based desktop application for our internal employee management. The UI was intuitive and the integration with MySQL was seamless. His work was timely, efficient, and exceeded expectations.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-4.png" alt="Atharv Mane" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Atharv Mane</h4>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Kalpesh has an incredible eye for photography. His compositions are thoughtful and expressive. I had the chance to collaborate with him on a creative shoot and was impressed with his editing skills and artistic approach.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="testimonials-item">
+      <div class="content-card" data-testimonials-item>
+        <figure class="testimonials-avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Sushant Patade" width="60" data-testimonials-avatar>
+        </figure>
+        <h4 class="h4 testimonials-item-title" data-testimonials-title>Sushant Patade</h4>
+        <div class="testimonials-text" data-testimonials-text>
+          <p>
+            Kalpesh designed a clean and professional web interface for our mini-project. His attention to layout, color, and responsiveness brought a polished look to our site. A reliable teammate with a design-first mindset.
+          </p>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+</section>
+  
+        <!-- Testimonials Modal Container -->
+<div class="modal-container" data-modal-container>
+
+  <div class="overlay" data-overlay></div>
+
+  <section class="testimonials-modal">
+
+    <button class="modal-close-btn" data-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+
+    <div class="modal-img-wrapper">
+      <figure class="modal-avatar-box">
+        <img src="./assets/images/avatar-1.png" alt="Sagar Patil" width="80" data-modal-img>
+      </figure>
+      <img src="./assets/images/icon-quote.svg" alt="quote icon">
+    </div>
+
+    <div class="modal-content">
+      <h4 class="h3 modal-title" data-modal-title>Sagar Patil</h4>
+    
+      <div data-modal-text>
+        <p>
+          Kalpesh developed a robust Java-based desktop application for our internal employee management. The UI was intuitive and the integration with MySQL was seamless. His work was timely, efficient, and exceeded expectations.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+</div>
+
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="call-to-action" id="hire-me">
+  <div class="cta-content">
+    <h3 class="h3 cta-title">Looking for a Full Stack Developer?</h3>
+    <p class="cta-text">
+      Whether it's building robust Java applications, designing responsive websites, or bringing ideas to life with efficient code — I'm ready to help you turn vision into reality.
+    </p>
+    <button class="btn-contact navbar-link" data-nav-link>Contact</button>
+
+
+  </div>
+</section>
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Zeal College of Engineering, Pune</h4>
+
+              <span>2022 – 2026</span>
+
+              <p class="timeline-text">
+                B.E. in Computer Science (CGPA: 7.37)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Mahatma Gandhi Junior College </h4>
+
+              <span>2020 – 2022</span>
+
+              <p class="timeline-text">
+                Senior Secondary School (61%)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Khed Taluka Education Society School </h4>
+
+              <span>Until 2020</span>
+
+              <p class="timeline-text">
+                10th Grade (81%)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Internship</h4>
+
+              <span> – Dec 2024 – Jan 2025</span>
+
+              <p class="timeline-text">
+                AICTE Edunet TechSaksham (Microsoft & SAP)
+                Hands-on AI internship exploring real-world applications and tools.
+                <a href="https://drive.google.com/file/d/1HxUpDVC86qtX4toiqWK5qX_jJHrw-eiK/view">[Certificate]</a>
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <ul class="skills-list">
+            <li>Languages: Java, Python, C++, SQL, HTML, CSS</li>
+            <li>Developer Tools: VS Code, PyCharm, IntelliJ, Eclipse</li>
+            <li>Version Control: Git, GitHub</li>
+            <li>Soft Skills: Planning, Teamwork, Time Management, Communication</li>
+          </ul>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+  <li class="project-item active" data-filter-item data-category="applications">
+    <a href="https://github.com/Kalpsgh/Employee_management_system" target="_blank">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <img src="./assets/images/emp.jpg" alt="Employee Management System" loading="lazy">
+      </figure>
+      <h3 class="project-title">Employee Management System</h3>
+      <p class="project-category">Applications</p>
+    </a>
+  </li>
+
+  <li class="project-item active" data-filter-item data-category="web design">
+    <a href="https://kalpsgh.github.io/Amazon-Clone/" target="_blank">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <img src="./assets/images/netflix.jpg" alt="Netflix Clone" loading="lazy">
+      </figure>
+      <h3 class="project-title">Netflix Clone</h3>
+      <p class="project-category">Web Design</p>
+    </a>
+  </li>
+
+  <li class="project-item active" data-filter-item data-category="web development">
+    <a href="https://aitravelplannerproject1.streamlit.app/" target="_blank">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <img src="./assets/images/travel.jpg" alt="AI Travel Planner" loading="lazy">
+      </figure>
+      <h3 class="project-title">AI Travel Planner</h3>
+      <p class="project-category">Web Development</p>
+    </a>
+  </li>
+
+  <li class="project-item active" data-filter-item data-category="web development">
+    <a href="https://weatherpro1-cca4adi6jtfsfappoznvaru.streamlit.app/" target="_blank">
+      <figure class="project-img">
+        <div class="project-item-icon-box">
+          <ion-icon name="eye-outline"></ion-icon>
+        </div>
+        <img src="./assets/images/weather.jpg" alt="Weather App" loading="lazy">
+      </figure>
+      <h3 class="project-title">Weather App</h3>
+      <p class="project-category">Web Development</p>
+    </a>
+  </li>
+
+</ul>
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact" id="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.1223870159334!2d73.84701737504458!3d18.562626682544744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c072df1d58d9%3A0x40c68d84de249e1c!2sPune%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1719157155880!5m2!1sen!2sin"
+              width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/xldnpbkg" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
